@@ -18,7 +18,7 @@
     </div>
     <div class="news">
       <VueSlickCarousel class="slider" v-bind="settings">
-        <div style="height: 500px;">
+        <div class="slider-item">
           <div class="slider-image">
             <img src="https://static.mvd.ru/upload/site1/document_news/MVD_9735-630xx225.jpg?rnd=0.8745904354806493">
           </div>
@@ -35,7 +35,7 @@
             </div>
           </div>
         </div>
-        <div style="height: 500px;">
+        <div class="slider-item">
           <div class="slider-image">
             <img src="https://static.mvd.ru/upload/site86/document_news/I-630xx225.jpg?rnd=0.36355631662098453">
           </div>
@@ -51,7 +51,7 @@
             </div>
           </div>
         </div>
-        <div style="height: 500px;">
+        <div class="slider-item">
           <div class="slider-image">
             <img src="https://static.mvd.ru/upload/site86/document_news/DSC_0160_-630xx225.jpg?rnd=0.4676008174496997">
           </div>
@@ -69,25 +69,48 @@
             </div>
           </div>
         </div>
-        <div style="height: 500px;">
-          <div class="slider-image">
-            <img src="https://static.mvd.ru/upload/site86/document_news/4(11)-630xx225.jpg?rnd=0.7107678201616441">
+      </VueSlickCarousel>
+      <div class="layout">
+        <div class="news-list">
+          <div class="news-list__list">
+            <div class="list__header">
+              В Чусовом прошел «Смотр строя и песни»
+            </div>
+            <div class="list__subheader">
+              Цель мероприятия – патриотическое воспитание подрастающего поколения.
+            </div>
           </div>
-          <div class="slider-text">
-            <div class="slider-text__header">
-              В Куеде Пермского края общественница организовала для студентов посещение выставки «Предметы старины
-              рассказать тебе должны»
+          <div class="news-list__list">
+            <div class="list__header">
+              В Чусовом водителям, управляющим автомобилями в состоянии алкогольного опьянения, вынесены приговоры
             </div>
-            <div class="slider-text__date">
-              21 Апреля 09:30
+            <div class="list__subheader">
+              Ранее мужчина и женщина уже подвергались административному наказанию за нетрезвое вождение.
             </div>
-            <div class="slider-text__subheader">
-              Ребята познакомились с предметами быта, кухонной утварью и внутренним убранством русской избы, вспомнили
-              пословицы и поговорки, отгадали русские народные загадки.
+          </div>
+          <div class="news-list__list">
+            <div class="list__header">
+              Житель Пермского края выразил благодарность госавтоинспекторам Краснокамска за помощь на дороге
+            </div>
+            <div class="list__subheader">
+              Полицейские помогли мужчине поменять колесо на трассе.
+            </div>
+          </div>
+          <div class="news-list__list">
+            <div class="list__header">
+              Госавтоинспекция Прикамья обратилась к мотоциклистам с открытием сезона
+            </div>
+            <div class="list__subheader">
+              Полицейские напомнили байкерам о необходимости соблюдения Правил дорожного движения
             </div>
           </div>
         </div>
-      </VueSlickCarousel>
+      </div>
+      <div class="footer">
+        <div class="footer__text">
+          Официальный сайт Отделa МВД России по Пермскому району © 2022, МВД России
+        </div>
+      </div>
     </div>
   </div>
 </template>
