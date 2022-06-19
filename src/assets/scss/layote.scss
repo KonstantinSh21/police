@@ -5,6 +5,8 @@
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  position: relative;
+  padding-bottom: 100px;
   //background-color: #f9f9f9;
 }
 
@@ -115,9 +117,12 @@
   }
 }
 .footer {
+  position: absolute;
   padding: 32px 0;
   background-color: #cccccc;
   margin-top: 32px;
+  width: 100%;
+  bottom: 0;
 
   &__text {
     max-width: 960px;
@@ -202,4 +207,33 @@ a {
   &:hover {
     background-color: #ccc;
   }
+}
+
+.text-m {
+  margin-bottom: 16px;
+  color: #8b8b8b;
+}
+
+.text-l {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.link {
+  display: block;
+  margin-bottom: 24px;
+  color: #1a1a1a;
+}
+
+.text_h {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 24px;
+}
+.text-h-m {
+  color: #1a1a1a;
+  margin-bottom: 24px;
+  line-height: 1.5;
 }
